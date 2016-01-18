@@ -1,3 +1,4 @@
+
 #+PROPERTY: header-args :tangle yes
 * Teaching Puppet
 ** Background
@@ -34,4 +35,31 @@ In this level, students will gain experience developing their own modules.
 
 **** Problem-solving
 
-Finally, students will face some 
+Finally, students will face some challenges to practice their knowledge, by validating hypothesis, not by trial-and-error.
+
+** Questions                                                  
+*** Q: Where is Puppet Agent installed?                       
+A: Target nodes
+*** Q: What do you need to install in order to use Puppet on a target node?
+A: Puppet Agent
+*** Q: What does Puppet Agent evaluate?
+A: Puppet manifests
+*** Q: Can Puppet work without the Puppet Master?
+A: Yes
+*** Q: Can Puppet work without the Puppet Agent?
+A: No
+*** Q: The Puppet Master builds a _____ with the policy to enforce in the target node.
+A: catalog
+*** Q: What does Facter do?
+A: Collect information about the target node.
+*** Q: In Puppet, you cannot assume the package manager of the target nodes.
+A: false
+*** Q: Puppet focuses on *how to migrate* a target node from one state to another.
+A: false
+*** Q: Puppet *forces the final state* of the target node, regardless of the initial state.
+A: true
+
+
+** Laboratory
+
+The student will face a number of challenges.
