@@ -1,0 +1,37 @@
+#+PROPERTY: header-args :tangle yes
+* Teaching Puppet
+** Background
+We'll use a different method to learn Puppet, using Gamification and Fail-Often.
+
+** Fail-Often
+This learning method consists of exposing the student to brief pieces of content,
+and let him progress only if they learn.
+
+*** Define a Plan
+
+Puppet is a tool to:
+
+1. Describe the configuration of services
+1. Identify target systems
+1. Enforce the state of a target system
+
+The plan will guide the student through a process that combines TDD-like practices, Mastery Learning principles and a Space-Repetition method focused on knowledge gaps.
+
+The plan is divided in levels, described next.
+
+**** Deployment
+
+The student will learn how to setup a working laboratory, and will be able to identify and address issues.
+This includes understanding the different modes of operation, how to add new target systems, how to trust and revoke certificates.
+
+**** Manage usual configurations
+
+The student will work on setting up usual services: web servers, mail servers, database servers, etc.
+
+**** Write custom modules
+
+In this level, students will gain experience developing their own modules.
+
+**** Problem-solving
+
+Finally, students will face some 
